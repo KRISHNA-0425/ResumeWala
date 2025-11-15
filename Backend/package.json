@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "AI-Resume builder",
+  "homepage": "https://github.com/KRISHNA-0425/ResumeWala",
+  "bugs": {
+    "url": "https://github.com/KRISHNA-0425/ResumeWala/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KRISHNA-0425/ResumeWala.git"
+  },
+  "license": "ISC",
+  "author": "Krishna Sinha",
+  "type": "modulejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.2"
+  }
+}
